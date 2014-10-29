@@ -1,4 +1,4 @@
-FROM empty
+FROM scratch
 ADD lib/x86_64-linux-gnu/ /lib/x86_64-linux-gnu
 ADD lib64/ /lib64
 ADD usr/ /usr
